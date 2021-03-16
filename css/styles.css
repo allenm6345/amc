@@ -1,18 +1,10 @@
-body{
+h2{
 
-background-color: blue;
-margin: 0;
-
+  font-size: 4rem;
 }
 
+h1{
 
- .bozo
- {
-margin: 0;
-padding-top: 5px;
-height: 125px;
-background-color: yellow;
-width: 130px;
-
+  font-size: 8rem;
 
 }
