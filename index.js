@@ -1,7 +1,14 @@
 var num1=((Math.random()*52)+1); num1=(Math.floor(num1));
 
-document.querySelector("h1").textContent=(num1);
+var randomKardImage =num1 + ".jpg";
 
-var num2=((Math.random()*52)+1); num2=(Math.floor(num2));
+// alert(randomKardImage);
 
-document.querySelector("h1").textContent=""+num1+("   ")+num2+"";
+var randomKardSource="images/"+randomKardImage;
+
+// alert(randomKardSource);
+
+dorf=document.querySelectorAll("img")[0];
+
+
+dorf.setAttribute("src",randomKardSource);
